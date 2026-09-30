@@ -1,0 +1,25 @@
+{
+  "dataset": "synthetic: 1 depot + 300 stops, Chicago area, seed 42",
+  "baseline": {
+    "method": "Nearest-neighbor greedy",
+    "vehicles_used": 23,
+    "stops_served": 300,
+    "stops_dropped": 0,
+    "total_route_miles": 789.6,
+    "avg_stops_per_route": 13.0
+  },
+  "optimized": {
+    "method": "OR-Tools CVRPTW",
+    "vehicles_used": 23,
+    "stops_served": 300,
+    "stops_dropped": 0,
+    "total_route_miles": 582.6,
+    "avg_stops_per_route": 13.0,
+    "solve_seconds": 45.0
+  },
+  "improvement": {
+    "miles_reduction_pct": 26.2,
+    "vehicles_saved": 0,
+    "dropped_stops_optimized": []
+  }
+}

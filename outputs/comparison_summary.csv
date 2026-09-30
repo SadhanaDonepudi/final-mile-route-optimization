@@ -1,0 +1,3 @@
+method,vehicles_used,stops_served,stops_dropped,total_route_miles,avg_stops_per_route,solve_seconds
+Nearest-neighbor greedy,23,300,0,789.6,13.0,
+OR-Tools CVRPTW,23,300,0,582.6,13.0,45.0
